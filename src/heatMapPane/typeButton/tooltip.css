@@ -1,0 +1,20 @@
+.typeButton:hover+.tooltip {
+  display: block;
+}
+
+.tooltip {
+  display: none;
+}
+
+.tooltip::before {
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: 50%;
+  margin-left: -6px;
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 6px solid #494949;
+}

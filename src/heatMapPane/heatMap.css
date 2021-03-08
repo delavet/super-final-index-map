@@ -1,0 +1,12 @@
+.selected::after {
+  content: '';
+  border-radius: 100%;
+  position: absolute;
+  background-color: #ef6c02;
+  top: -12px;
+  left: -8px;
+  z-index: 0;
+  margin: 6px 3px 5px 3px;
+  height: 36px;
+  width: 36px;
+}
